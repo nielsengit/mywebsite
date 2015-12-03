@@ -1,7 +1,5 @@
 
- $(document).ready(function() {
-    $('p.container').click(function() {
-        $(this).fadeOut('slow');
+
 
 
          $(document).ready(function() {
