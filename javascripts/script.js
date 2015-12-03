@@ -14,7 +14,7 @@
      });
      
      $(document).on('click', '.item', function(){
-         $(this).remove()
+         $(this).remove();
          
      });
  });
