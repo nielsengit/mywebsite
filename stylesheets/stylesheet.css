@@ -34,6 +34,27 @@ li {
    h1       - project name
    h2       - project description
 */
+ form {
+    display: inline-block;
+}
+
+#button{
+    display: inline-block;
+    height:20px;
+  width:70px;
+  background-color:#cc0000;
+  font-family:arial;
+  font-weight:bold;
+  color:#ffffff;
+  border-radius: 5px;
+  text-align:center;
+  margin-top:2px;
+}
+
+.list {
+  font-family:garamond;
+  color:#ff0000;
+}
 
 header {
   background: rgba(0, 0, 0, 0.1);

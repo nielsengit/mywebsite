@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+<script type="text/javascript" src="script.js"></script>
+
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -8,10 +10,11 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <title>Updates by Nielsen!!!!</title>
+    <title>Updates by Nielsen</title>
   </head>
 
   <body>
+
 
     <header>
       <div class="container">
@@ -26,14 +29,40 @@
       </div>
     </header>
 
+    <h2>To Do</h2>
+    <form name="checkListForm">
+      <input type="text" name="checkListItem"/>
+    </form>
+    <div id="button">Add!</div>
+    <br/>
+    <div class="list"></div>
+
     <div class="container">
       <section id="main_content">
         <p>My page's content. Hello to all </p>
 
-<p>OY</p>
+<p> $(document).ready(function() {
+            Do something
+      }); 
+
+    $(document).ready(function() {
+    $(thingToClick).event(function() {
+        $(thingToAffect).effect();
+    });
+
+    $(document).ready(function() {
+    $('div').click(function() {
+        $(this).fadeOut('slow');   <!-- within multiple div elements, it will apply
+        the event handler to the one you are interacting with. i.e. mousing over 
+        or clicking on-->
+    });
+});
+});
+
+</p>
 <p><a href="#" onClick="alert('MUUUUDER');">Click If You Dare Yohanesson</a></p>
 <h2>Githubworking</h2>
-<img src="images/Githubworking.png" alt="GIT" style="width:304px;height:228px;">
+<img src="images/Githubworking.png" alt="GIT" style="width:450px;height:350px;">
 
       </section>
     </div>
