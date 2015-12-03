@@ -8,6 +8,9 @@ body {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
+h2 {
+    font-family:arial;
+}
 /* General & 'Reset' Stuff */
 
 .container {
@@ -53,7 +56,7 @@ li {
 
 .list {
   font-family:garamond;
-  color:#ff0000;
+  color:#ffffff;
 }
 
 header {
